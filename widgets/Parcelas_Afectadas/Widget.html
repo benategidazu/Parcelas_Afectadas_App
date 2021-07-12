@@ -1,0 +1,30 @@
+<div>
+    <h1>Seleccione el escenario que quiere que se tenga en cuenta para la afeccion de las parcelas:</h3>
+    
+    <br>
+
+    <select name="escenario" data-dojo-attach-point="escenarioSelect" class="form-select">
+        <option value="-1">Seleccione el escenario</option>
+        <option value="0">RCP4.5-2050</option>
+        <option value="1">RCP4.5-2100</option>
+        <option value="2">RCP8.5-2050</option>
+        <option value="3">RCP8.5-2100</option>
+    </select>
+
+    <br>
+    <br>
+
+    <button data-dojo-attach-event="onclick:EjecutarConsulta" class="btn btn-warning">Ejecutar consulta de parcelas</button> 
+
+    <br><br>
+
+    <p><strong>El número de parcelas afectadas es: </strong></p>
+
+    <p id="numeroParcelas"><strong></strong></p>
+
+    <br>
+
+    <!-- <p><strong>Con un área total en metros cuadrados de: </strong></p>
+
+    <p id="areaParcelas"></p> -->
+</div>
