@@ -71,7 +71,7 @@ define(['dojo/_base/declare', 'jimu/BaseWidget', "esri/tasks/query", "esri/tasks
                    
                   var geometria_parcelas_seleccionadas = resultados.features[i].geometry;
 
-                  this.map.graphics.add(new Graphic(geometria_parcelas_seleccionadas, new SimpleFillSymbol(SimpleFillSymbol.STYLE_BACKWARD_DIAGONAL, new SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID, new Color([58, 254, 29]), 1), new Color([58, 254, 29, 0.75]))));
+                  this.map.graphics.add(new Graphic(geometria_parcelas_seleccionadas, new SimpleFillSymbol(SimpleFillSymbol.STYLE_BACKWARD_DIAGONAL, new SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID, new Color([3, 98, 40]), 1), new Color([3, 98, 40, 0.75]))));
 
                   area += resultados.features[i].attributes.Shape__Area;
                   
