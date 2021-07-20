@@ -1,0 +1,12 @@
+Esta aplicación web muestra las parcelas privadas del estuario del rio Oka que, por el efecto del aumento del nivel del mar, cambiaran de tipo de suelo, en este caso, a un sistema marismeño.
+
+Los resultados de esta aplicación son orientativos y no se deben utilizar, en ningun caso, para fines en temas de seguridad.
+
+Los cinco botones situados en la parte inferior de la barra de búsqueda tienen las siguientes funcionalidades:
+1. Modificar el mapa base para una mejor visualización y contextualización de los datos.
+2. Extraer datos de la zona que el usuario desea (es posible crear una cuenta de ArcGIS Online gratuita mediante el siguiente link: https://developers.arcgis.com/sign-up/).
+3. Calcular la distancia y área de la zona de estudio de manera interactiva.
+4. Mostrar y visualizar el número de parcelas que se verán afectadas por el aumento del nivel del mar en cada escenario de cambio climatico.
+5. Añadir datos al mapa mediante el repositorio de ArcGIS Online, archivos locales, etc. Cabe destacar que la información añadida es solo de manera local, por lo que al refrescar la pagina, esta información se perderá.
+
+Por otro lado, los dos botones situados en la parte superior derecha de la aplicación permiten ver la leyenda y/o activar o desactivar las predicciones de la distribución de marismas realizadas para los distintos escenarios de cambio climatico.
