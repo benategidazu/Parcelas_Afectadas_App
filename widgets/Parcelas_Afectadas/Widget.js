@@ -30,7 +30,7 @@ define(['dojo/_base/declare', 'jimu/BaseWidget', "esri/tasks/query", "esri/tasks
       //methods to communication with app container:
 
       postCreate: function() {
-        
+        alert("Esta aplicación nunca debe usarse en temas de seguridad humana puesto que los resultados carecen de exactitud.")
       },
 
       startup: function() {
