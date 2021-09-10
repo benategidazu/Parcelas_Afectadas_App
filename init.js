@@ -15,7 +15,7 @@
 ///////////////////////////////////////////////////////////////////////////
 
 var dojoConfig, jimuConfig;
-
+alert("Esta aplicación nunca debe usarse en temas de seguridad humana puesto que los resultados carecen de exactitud.");
 /*global weinreUrl, loadResources, _loadPolyfills, loadingCallback, debug, allCookies, unescape */
 
 var ie = (function() {
