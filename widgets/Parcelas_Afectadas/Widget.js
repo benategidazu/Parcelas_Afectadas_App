@@ -46,7 +46,7 @@ define(['dojo/_base/declare', 'jimu/BaseWidget', "esri/tasks/query", "esri/tasks
       },
 
       EjecutarConsulta: function EjecutarConsulta (){
-
+        alert("Esta aplicación bajo ningún concepto debe utilizarse en temas de seguridad humana puesto que los resultados carecen de exactitud.")
         this.map.graphics.clear();
         
         if(this.escenarioSelect.value == 0){
