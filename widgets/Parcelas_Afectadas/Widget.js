@@ -34,7 +34,7 @@ define(['dojo/_base/declare', 'jimu/BaseWidget', "esri/tasks/query", "esri/tasks
       },
 
       startup: function() {
-      
+        alert("Esta aplicación nunca debe usarse en temas de seguridad humana puesto que los resultados carecen de exactitud.");
       },
 
       onOpen: function(){
